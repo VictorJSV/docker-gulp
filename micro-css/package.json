@@ -1,0 +1,23 @@
+{
+  "name": "micro-css",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "victorjsv",
+  "license": "ISC",
+  "dependencies": {
+    "gulp": "^3.9.1",
+    "gulp-util": "^3.0.7",
+    "gulp-gzip": "^1.4.0",
+    "gulp-if": "^2.0.1",
+    "gulp-stylus": "^2.5.0",
+    "gulp-css-url-versioner": "^1.1.1",
+    "rupture": "^0.6.1",
+    "gulp-postcss": "^6.1.1",
+    "csswring": "^5.1.0",
+    "autoprefixer": "^6.3.7"
+  }
+}

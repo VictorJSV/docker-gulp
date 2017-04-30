@@ -1,0 +1,14 @@
+{
+  "name": "micro-sprites",
+  "version": "1.0.0",
+  "description": "Isolated image to run the sprites task under gulp",
+  "main": "",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "victorjsv",
+  "license": "ISC",
+  "dependencies": {
+    "gulp.spritesmith": "^6.2.1"
+  }
+}
