@@ -1,6 +1,6 @@
 var gulp        = require("gulp");
 var spritesmith = require("gulp.spritesmith");
-var dockerPath  = require("/usr/local/app/frontend/config/docker-path.js");
+var dockerPath  = require("../config/docker-path.js");
 
 gulp.task("default", function(){
     var spriteSelf = gulp.src(dockerPath.input + "/*.gif")

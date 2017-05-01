@@ -9,9 +9,8 @@
   "author": "victorjsv",
   "license": "ISC",
   "dependencies": {
-    "gulp": "^3.9.1",
-    "gulp-util": "^3.0.7",
     "gulp-pug": "^3.0.4",
+    "gulp-pug-lint": "^0.1.6",
     "pug": "^2.0.0-beta6",
     "gulp-rename": "^1.2.2",
     "pug-inheritance": "^2.0.1"

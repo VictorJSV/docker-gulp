@@ -19,5 +19,4 @@ gulp.task("default", function (cb) {
     })))
     .pipe(gulpIf(functions.isGzip, gzip({ append: false  })))
     .pipe(gulp.dest(pathFiles.output));
-  }
 });

@@ -1,4 +1,4 @@
-let module = function {
+let module2 = function() {
   initialize = () => {
     console.log("Hola Mundo 2")
   }
@@ -7,4 +7,4 @@ let module = function {
   }
 }
 
-module().init();
+module2().init();

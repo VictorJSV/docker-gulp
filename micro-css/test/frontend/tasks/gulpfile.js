@@ -11,7 +11,7 @@ const gulp         = require("gulp"),
       functions    = require("../config/functions.js");
 
 gulp.task("default", function () {
-  let processors = [ autoprefixer(), lost() ];
+  let processors = [ autoprefixer() ];
   if (functions.isProduction()) {
     processors.push(csswring)
   }
