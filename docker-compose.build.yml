@@ -1,22 +1,22 @@
 version: '2'
 services:
   frontend-base:
-    image: frontend-base:latest
+    image: victorjsv/frontend-base:latest
     build:
       context: ./frontend-base/
   micro-css:
-    image: micro-css:latest
+    image: victorjsv/micro-css:latest
     build:
       context: ./micro-css/
   micro-html:
-    image: micro-html:latest
+    image: victorjsv/micro-html:latest
     build:
       context: ./micro-html/
   micro-js:
-    image: micro-js:latest
+    image: victorjsv/micro-js:latest
     build:
       context: ./micro-js/
   micro-sprites:
-    image: micro-sprites:latest
+    image: victorjsv/micro-sprites:latest
     build:
       context: ./micro-sprites/
