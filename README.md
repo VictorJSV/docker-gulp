@@ -20,7 +20,7 @@ docker-compose -f docker-compose.build.yml build micro-sprites
 ```
 ### Run test
 ```shell
-docker run -it --rm --user $(id -u):$(id -g) -v $(pwd)/micro-sprites/test/:/usr/local/app -w /usr/local/app/frontend/tasks micro-sprites gulp
+docker run -it --rm --user $(id -u):$(id -g) -v $(pwd)/micro-sprites/test/:/usr/local/app -w /usr/local/app/frontend/tasks victorjsv/micro-sprites gulp
 ```
 
 ## Micro-css
@@ -30,7 +30,7 @@ docker-compose -f docker-compose.build.yml build micro-css
 ```
 ### Run test
 ```shell
-docker run -it --rm --user $(id -u):$(id -g) -v $(pwd)/micro-css/test/:/usr/local/app -w /usr/local/app/frontend/tasks micro-css gulp
+docker run -it --rm --user $(id -u):$(id -g) -v $(pwd)/micro-css/test/:/usr/local/app -w /usr/local/app/frontend/tasks victorjsv/micro-css gulp
 ```
 
 ## Micro-html
@@ -40,7 +40,7 @@ docker-compose -f docker-compose.build.yml build micro-html
 ```
 ### Run test
 ```shell
-docker run -it --rm --user $(id -u):$(id -g) -v $(pwd)/micro-html/test/:/usr/local/app -w /usr/local/app/frontend/tasks micro-html gulp
+docker run -it --rm --user $(id -u):$(id -g) -v $(pwd)/micro-html/test/:/usr/local/app -w /usr/local/app/frontend/tasks victorjsv/micro-html gulp
 ```
 
 ## Micro-js
@@ -50,5 +50,5 @@ docker-compose -f docker-compose.build.yml build micro-js
 ```
 ### Run test
 ```shell
-docker run -it --rm --user $(id -u):$(id -g) -v $(pwd)/micro-js/test/:/usr/local/app -w /usr/local/app/frontend/tasks micro-js gulp
+docker run -it --rm --user $(id -u):$(id -g) -v $(pwd)/micro-js/test/:/usr/local/app -w /usr/local/app/frontend/tasks victorjsv/micro-js gulp
 ```
